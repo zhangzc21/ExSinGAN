@@ -2,7 +2,7 @@
 
 ### Pytorch implementation of the paper: : "ExSinGAN: learning an explainable Generative Model from a Single Image (BMVC 2021)"
 ![](README/ExSinGAN.png)
-![](README/1.gif)![](README/2.gif)![](README/4.gif)![](README/5.gif)
+![](README/2.gif)![](README/4.gif)![](README/5.gif)
 ## code
 Our code refered to the following projects:
 * [SinGAN: https://github.com/tamarott/SinGAN](https://github.com/tamarott/SinGAN)
