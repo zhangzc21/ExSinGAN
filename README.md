@@ -2,7 +2,7 @@
 
 ### Pytorch implementation of the paper: : "ExSinGAN: learning an explainable Generative Model from a Single Image (BMVC 2021)"
 ![](README/ExSinGAN.png)
-
+![](README/1.gif)![](README/2.gif)![](README/4.gif)![](README/5.gif)
 ## code
 Our code refered to the following projects:
 * [SinGAN: https://github.com/tamarott/SinGAN](https://github.com/tamarott/SinGAN)
@@ -45,8 +45,12 @@ Once the model is trained completely, the syntheses are stored in the `Output` d
 python random_samples.py --model_path <model_path> --num <num>
 ```
 
-###  Random samples of arbitrary sizes
-For generating samples of arbitrary sizes, running
-```angular2html
-python random_samples.py --model_path <model_path> --num <num> --scale_h <scale_h> --scale_w <scale_w>
-```
+[comment]: <> (###  Random samples of arbitrary sizes)
+
+[comment]: <> (For generating samples of arbitrary sizes, running)
+
+[comment]: <> (```angular2html)
+
+[comment]: <> (python random_samples.py --model_path <model_path> --num <num> --scale_h <scale_h> --scale_w <scale_w>)
+
+[comment]: <> (```)
