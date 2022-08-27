@@ -575,7 +575,7 @@ class ExSinGAN():
                 torch.save(netG.state_dict(), '%s/netG.pth' % opt.SubDir2Save)
                 torch.save({'netD': netD.state_dict(), 'epoch': epoch}, '%s/netD.pth' % opt.SubDir2Save)
                 torch.save(self.NoiseAmp, '%s/NoiseAmp.pth' % opt.dir2save)
-                self.see_this_height(filename = opt.model_name, height = Height)
+                self.see_this_height(filename = opt.model_name, height = Height, epoch = epoch)
 
     def random_generate(self, filename = None):
         opt = self.opt
