@@ -485,7 +485,7 @@ class ExSinGAN():
             return
         netG, netD = self.Gs[Height], self.Ds[Height]
         real = self.reals[Height].to(self.opt.device)
-        alpha = opt.alpha
+        alpha = opt.alpha_texture
 
         PrevReconstruction = self.PyramidGenerator(EndHeight = Height - 1, FixedNoise = self.FixedNoise).detach()
 
